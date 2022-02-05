@@ -1,0 +1,53 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.app{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-image: linear-gradient(150deg, #8562c7, #2f0b4d);
+  min-height: 100vh;
+}
+
+.container{
+  height: 88vh;
+  width: 85%;
+
+  overflow: hidden;
+  border: none;
+  border-radius: 1rem;
+  background-image: linear-gradient( 
+      145deg,
+      rgba(255, 255, 255, 0.6),
+      rgba(255, 255, 255, 0.2)
+  );
+}
+
+.navbar{
+  display: flex;
+  justify-content: center;
+  padding-top: 1.5rem;
+}
+
+.navbar-heading{
+  color: #1e0235;
+  display: flex;
+  margin-right: 0.9rem;
+}
+
+.routes{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media(max-width: 450px){
+  .container{
+    height: 94vh;
+    width: 90%;
+  }
+}

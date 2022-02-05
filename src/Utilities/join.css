@@ -1,0 +1,49 @@
+.form-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-group, .button {
+    height: 2.5rem;
+    width: 100%;
+    background: white;
+    border-radius: 0.5rem;
+}
+
+.form-group{
+    display: flex;
+    margin: 1.5rem 0rem;
+}
+
+.form-group span{
+    color: black;
+    width: 50px;
+    line-height: 40px;
+    padding-left: 0.8rem;
+}
+
+
+.form input[type='text']{
+    display: block;
+    width: 100%;
+
+    font-size: 1.2rem;
+    border: none;
+    outline: none;
+    border-radius: 0.5rem;
+}
+
+.button {
+    font-size: 1.2rem;
+    color: white;
+    background-color: #2f0b4d;
+    border: none;
+    outline: none;
+}
+
+.button:hover {
+    background-color: #431866;
+    cursor: pointer;
+}
+  
